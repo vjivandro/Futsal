@@ -14,7 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".SplashScreenActivity"></activity>
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MateriActivity" />
         <activity android:name=".MetodeLatihanActivity" />
         <activity android:name=".TentangActivity" />
@@ -24,15 +30,7 @@
         <activity android:name=".Tentang.ProfilActivity" />
         <activity android:name=".Tentang.DeskripsiActivity" />
         <activity android:name=".Tentang.InfoActivity" />
-        <activity android:name=".MetodeLatihan.VideoCaraPelaksanaanActivity">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
+        <activity android:name=".MetodeLatihan.VideoCaraPelaksanaanActivity"></activity>
     </application>
 
 </manifest>

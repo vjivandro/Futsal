@@ -2,7 +2,6 @@ package com.futsal.app.futsalapp.Materi;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.futsal.app.futsalapp.R;
 import com.github.barteksc.pdfviewer.PDFView;
@@ -15,7 +14,7 @@ import java.util.List;
 
 public class SejarahFutsalActivity extends AppCompatActivity implements OnPageChangeListener,OnLoadCompleteListener {
 
-    public static final String SAMPLE_FILE = "SejarahFutsal.pdf";
+    public static final String SAMPLE_FILE = "Sejarah Futsal.pdf";
     PDFView pdfView;
     Integer pageNumber = 0;
     String pdfFileName;

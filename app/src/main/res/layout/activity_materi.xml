@@ -15,9 +15,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sejarah Futsal"
-        android:drawablePadding="15dp"
         android:textAlignment="textStart"
-        android:textAllCaps="true" />
+        android:drawablePadding="15dp"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/buttonFutsal"
@@ -26,5 +26,6 @@
         android:drawablePadding="15dp"
         android:layout_height="wrap_content"
         android:textAlignment="textStart"
+        android:textAllCaps="false"
         android:text="Futsal Laws of The Game" />
 </LinearLayout>

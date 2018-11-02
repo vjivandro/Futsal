@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FutsalApp</string>
+    <string name="app_name">Futsal</string>
 
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
 </resources>
