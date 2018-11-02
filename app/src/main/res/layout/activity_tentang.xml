@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TentangActivity">
+
+    <Button
+        android:id="@+id/buttonProfil"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/about_icon_md"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:text="Profil" />
+
+    <Button
+        android:id="@+id/buttonDeskripsi"
+        android:drawablePadding="9dp"
+        android:drawableLeft="@drawable/job_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:text="Deskripsi Aplikasi" />
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/tentang_001"
+        android:layout_width="match_parent"
+        android:textAlignment="textStart"
+        android:layout_height="wrap_content"
+        android:text="Info Lain" />
+</LinearLayout>

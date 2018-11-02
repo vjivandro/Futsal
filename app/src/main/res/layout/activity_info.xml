@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tentang.InfoActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:drawableLeft="@drawable/developer"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer" />
+
+    <Button
+        android:id="@+id/button5"
+        android:drawablePadding="15dp"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright" />
+
+    <Button
+        android:id="@+id/button6"
+        android:drawablePadding="15dp"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/build"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build Version" />
+
+    <Button
+        android:id="@+id/button7"
+        android:drawablePadding="1dp"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/job_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Term  Police" />
+</LinearLayout>

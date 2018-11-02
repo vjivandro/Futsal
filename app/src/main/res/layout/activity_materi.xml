@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MateriActivity">
+
+
+    <Button
+        android:id="@+id/buttonSejarah"
+        android:drawableLeft="@drawable/materi_002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sejarah Futsal"
+        android:drawablePadding="15dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/buttonFutsal"
+        android:drawableLeft="@drawable/materi_002"
+        android:layout_width="match_parent"
+        android:drawablePadding="15dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:text="Futsal Laws of The Game" />
+</LinearLayout>
