@@ -36,7 +36,7 @@ public class TataCaraPelaksanaanActivity extends AppCompatActivity implements On
                 .defaultPage(pageNumber)
                 .enableSwipe(true)
 
-                .swipeHorizontal(false)
+                .swipeHorizontal(true)
                 // .onPageChange((OnPageChangeListener) this)
                 .onPageChange(this)
                 .enableAnnotationRendering(true)

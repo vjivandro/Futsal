@@ -37,7 +37,7 @@ public class SejarahFutsalActivity extends AppCompatActivity implements OnPageCh
                 .defaultPage(pageNumber)
                 .enableSwipe(true)
 
-                .swipeHorizontal(false)
+                .swipeHorizontal(true)
                // .onPageChange((OnPageChangeListener) this)
                 .onPageChange(this)
                 .enableAnnotationRendering(true)

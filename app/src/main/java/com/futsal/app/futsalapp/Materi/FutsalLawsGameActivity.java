@@ -36,7 +36,7 @@ public class FutsalLawsGameActivity extends AppCompatActivity  implements OnPage
                 .defaultPage(pageNumber)
                 .enableSwipe(true)
 
-                .swipeHorizontal(false)
+                .swipeHorizontal(true)
                 // .onPageChange((OnPageChangeListener) this)
                 .onPageChange(this)
                 .enableAnnotationRendering(true)

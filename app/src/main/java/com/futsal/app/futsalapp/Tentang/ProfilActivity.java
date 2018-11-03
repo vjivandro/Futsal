@@ -34,7 +34,7 @@ public class ProfilActivity extends AppCompatActivity implements OnPageChangeLis
                 .defaultPage(pageNumber)
                 .enableSwipe(true)
 
-                .swipeHorizontal(false)
+                .swipeHorizontal(true)
                 // .onPageChange((OnPageChangeListener) this)
                 .onPageChange(this)
                 .enableAnnotationRendering(true)
