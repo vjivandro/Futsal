@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/page_menu"/>
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,16 +23,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MateriActivity" />
-        <activity android:name=".MetodeLatihanActivity" />
-        <activity android:name=".TentangActivity" />
-        <activity android:name=".Materi.SejarahFutsalActivity" />
-        <activity android:name=".Materi.FutsalLawsGameActivity" />
-        <activity android:name=".MetodeLatihan.TataCaraPelaksanaanActivity" />
-        <activity android:name=".Tentang.ProfilActivity" />
-        <activity android:name=".Tentang.DeskripsiActivity" />
-        <activity android:name=".Tentang.InfoActivity" />
-        <activity android:name=".MetodeLatihan.VideoCaraPelaksanaanActivity"></activity>
+        <activity
+            android:name=".MateriActivity"
+            android:label="@string/page_materi"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MetodeLatihanActivity"
+            android:label="@string/page_latihan"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".TentangActivity"
+            android:label="@string/page_tentang"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Materi.SejarahFutsalActivity"
+            android:label="@string/page_sejarah"
+            android:parentActivityName=".MateriActivity"/>
+        <activity
+            android:name=".Materi.FutsalLawsGameActivity"
+            android:label="@string/page_futsal"
+            android:parentActivityName=".MateriActivity"/>
+        <activity
+            android:name=".MetodeLatihan.TataCaraPelaksanaanActivity"
+            android:label="@string/page_cara"
+            android:parentActivityName=".MetodeLatihanActivity"/>
+        <activity
+            android:name=".Tentang.ProfilActivity"
+            android:label="@string/page_profile"
+            android:parentActivityName=".TentangActivity"/>
+        <activity
+            android:name=".Tentang.DeskripsiActivity"
+            android:label="@string/page_deskripsi"
+            android:parentActivityName=".TentangActivity"/>
+        <activity
+            android:name=".Tentang.InfoActivity"
+            android:label="@string/page_info"
+            android:parentActivityName=".TentangActivity"/>
+        <activity
+            android:name=".MetodeLatihan.VideoCaraPelaksanaanActivity"
+            android:label="@string/page_video"
+            android:parentActivityName=".MetodeLatihanActivity"/>
     </application>
 
 </manifest>

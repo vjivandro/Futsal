@@ -2,4 +2,16 @@
     <string name="app_name">Futsal</string>
 
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="page_menu">Dashboard</string>
+    <string name="page_materi">Materi</string>
+    <string name="page_sejarah">Sejarah</string>
+    <string name="page_futsal">Futsal Laws of The Game</string>
+    <string name="page_latihan">Latihan</string>
+    <string name="page_cara">Tata Cara</string>
+    <string name="page_video">Video</string>
+    <string name="page_profile">Profile</string>
+    <string name="page_deskripsi">Deskripsi</string>
+    <string name="page_tentang">Tentang</string>
+    <string name="page_info">Info</string>
 </resources>

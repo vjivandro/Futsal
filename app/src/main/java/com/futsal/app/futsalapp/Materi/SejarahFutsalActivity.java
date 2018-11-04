@@ -50,7 +50,7 @@ public class SejarahFutsalActivity extends AppCompatActivity implements OnPageCh
     @Override
     public void onPageChanged(int page, int pageCount) {
         pageNumber = page;
-        setTitle(String.format("%s %s / %s", pdfFileName, page + 1, pageCount));
+        //setTitle(String.format("%s %s / %s", pdfFileName, page + 1, pageCount));
     }
 
 
