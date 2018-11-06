@@ -133,7 +133,7 @@ public class VideoCaraPelaksanaanActivity extends AppCompatActivity implements Y
         } else if (isPortrait) {
             setLayoutSize(listFragment.getView(), MATCH_PARENT, MATCH_PARENT);
             setLayoutSize(videoFragment.getView(), MATCH_PARENT, WRAP_CONTENT);
-            setLayoutSizeAndGravity(videoBox, MATCH_PARENT, WRAP_CONTENT, Gravity.BOTTOM);
+            setLayoutSizeAndGravity(videoBox, MATCH_PARENT, WRAP_CONTENT, Gravity.CENTER);
         } else {
             videoBox.setTranslationY(0); // Reset any translation that was applied in portrait.
             int screenWidth = dpToPx(getResources().getConfiguration().screenWidthDp);

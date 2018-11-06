@@ -1,44 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Tentang.InfoActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="10"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button4"
-        android:drawableLeft="@drawable/developer"
-        android:textAlignment="textStart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Developer" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button5"
-        android:drawablePadding="15dp"
-        android:textAlignment="textStart"
-        android:drawableLeft="@drawable/copyright"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Copyright" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Futsal"
+            android:textAlignment="center"
+            android:textSize="15pt"
+            android:textStyle="bold"/>
 
-    <Button
-        android:id="@+id/button6"
-        android:drawablePadding="15dp"
-        android:textAlignment="textStart"
-        android:drawableLeft="@drawable/build"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Build Version" />
+        <TextView
+            android:id="@+id/tv_versi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
 
-    <Button
-        android:id="@+id/button7"
-        android:drawablePadding="1dp"
-        android:textAlignment="textStart"
-        android:drawableLeft="@drawable/job_description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Term  Police" />
-</LinearLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_futsal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text="Created by : "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Juris Mobile Developer "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:text="Powered by : "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mohammad Bagus Syarifudin"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/um_logo"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/logo_um"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/link_um"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textColor="#0800ff"
+            android:text="www.um.ac.id"/>
+
+        <TextView
+            android:id="@+id/link_fik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textColor="#0800ff"
+            android:text="www.um.ac.id/page/fakultas-ilmu-keolahragaan"/>
+
+        <TextView
+            android:id="@+id/privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#0800ff"
+            android:text="Privacy Policy"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Copyright © 2018 Futsal"/>
+    </LinearLayout>
+</ScrollView>

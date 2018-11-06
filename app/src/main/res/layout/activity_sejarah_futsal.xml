@@ -7,9 +7,58 @@
     android:orientation="vertical"
     tools:context=".Materi.SejarahFutsalActivity">
 
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdfView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="SEJARAH FUTSAL"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Futsal (futbol sala dalam bahasa Spanyol berarti sepakbola dalam ruangan) merupakan permainan sepakbola yang dilakukan didalam ruangan. Permainan futsal sendiri dilakukan oleh lima pemain setiap tim, berbeda dengan sepakbola konvensional yang pemainnya berjumlah sebelas orang setiap tim. Ukuran lapangan dan ukuran bolanya lebih kecil dibandingkan ukuran yang digunakan dalam sepakbola lapangan rumput. Aturan permainannya tidak sama dengan sepakbola."
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Aturan permainan dalam olahraga futsal dibuat sedemikian ketat oleh FIFA agar permainan dapat berjalan dengan fairplay dan sekaligus untuk menghindari cedera yang dapat terjadi. Hal ini disebabkan lapangan atau underground yang digunakan untuk pertandingan internasional bukan dari rumput, tetapi dari kayu, atau rubber/plastic. Dengan ukuran lapangan yang lebih kecil dan jumlah pemain yang lebih sedikit, permainan futsal cenderung lebih dinamis karena gerakan yang cepat."
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Berbeda dengan sepakbola sehingga jumlah gol yang diciptakan dalam permainan futsal umumnya jauh lebih banyak. Di samping itu, pemain futsal juga mempelajari untuk bermain lebih akurat dalam hal teknik dasar bermain, seperti teknik passing, control, dribbling, dan shooting. Dari teknik-teknik dasar inilah permainan futsal dan sepakbola dibentuk. Oleh karena itu, di Eropa dan Amerika Latin permainan futsal telah dimainkan sejak usia dini (usia 5 tahun)."
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Di dunia ada dua badan internasional futsal yaitu AMF (Association Mundial de Futsal) dengan POFI (Persatuan Olahraga Futsal Indonesia) sebagai representatif-nya di indonesia dan FIFA yang membawahi sepakbola (pria dan wanita), futsal, dan sepakbola pantai dengan PSSI sebagai wakilnya di Indonesia."
+                android:textAllCaps="false"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
 
 </LinearLayout>
