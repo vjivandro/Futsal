@@ -11,7 +11,7 @@
 
     <Button
         android:id="@+id/buttonSejarah"
-        android:drawableLeft="@drawable/materi_002"
+        android:drawableLeft="@mipmap/ic_materi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sejarah Futsal"
@@ -21,7 +21,7 @@
 
     <Button
         android:id="@+id/buttonFutsal"
-        android:drawableLeft="@drawable/materi_002"
+        android:drawableLeft="@mipmap/ic_materi"
         android:layout_width="match_parent"
         android:drawablePadding="15dp"
         android:layout_height="wrap_content"

@@ -9,18 +9,17 @@
 
     <Button
         android:id="@+id/buttonTataCara"
-        android:drawableLeft="@drawable/pelaksanaan"
+        android:drawableLeft="@mipmap/ic_cara"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tata Cara Pelaksanaan"
         android:textAllCaps="false"
         android:textAlignment="textStart"
-        android:drawablePadding="15dp"
-        />
+        android:drawablePadding="15dp"/>
 
     <Button
         android:id="@+id/buttonVideo"
-        android:drawableLeft="@drawable/video_001"
+        android:drawableLeft="@mipmap/ic_video"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Video Cara Pelaksanaan"

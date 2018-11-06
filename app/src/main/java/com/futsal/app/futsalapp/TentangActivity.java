@@ -94,16 +94,18 @@ public class TentangActivity extends AppCompatActivity {
                 } else if (getPosition() == 1) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(TentangActivity.this);
                     builder.setTitle("Mobile Developer");
-                    builder.setIcon(R.drawable.developer);
+                    builder.setIcon(R.mipmap.ic_dev);
                     builder.setMessage("Juris Vassa Ivandro, S.Kom\n082143594666\nvjdevmobile@gmail.com");
-                    builder.setPositiveButton("Oke", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-
-                        }
-                    });
+                    builder.setPositiveButton("Oke", null);
                     builder.show();
                 } else if (getPosition() == 2) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(TentangActivity.this);
+                    builder.setTitle("Analyst");
+                    builder.setIcon(R.mipmap.ic_analyst);
+                    builder.setMessage("Eko Hadi Santoso, Amd.Kom\n082245493396\nekohs2009@gmail.com");
+                    builder.setPositiveButton("Oke", null);
+                    builder.show();
+                } else if (getPosition() == 3) {
                     startActivity(new Intent(v.getContext(), InfoActivity.class));
                 }
             }
