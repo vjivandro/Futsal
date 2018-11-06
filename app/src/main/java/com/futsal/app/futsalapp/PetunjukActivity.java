@@ -24,6 +24,7 @@ public class PetunjukActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_petunjuk);
+        getSupportActionBar().setTitle("Petunjuk");
         List<RuleModel> ruleModelList = Helper.getRuleApp();
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerview);

@@ -15,7 +15,7 @@ import java.util.List;
 public class TataCaraPelaksanaanActivity extends AppCompatActivity implements OnPageChangeListener,OnLoadCompleteListener {
 
 
-    public static final String SAMPLE_FILE = "Lampiran Model Latihan.pdf";
+    public static final String SAMPLE_FILE = "latihan.pdf";
     PDFView pdfView;
     Integer pageNumber = 0;
     String pdfFileName;
