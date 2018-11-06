@@ -26,4 +26,20 @@ public class Helper {
         return lisDashboard;
     }
 
+
+    public static List<RuleModel> getRuleApp() {
+
+        List<RuleModel> ruleModels = new ArrayList<RuleModel>();
+        ruleModels.add(new RuleModel(R.string.MenuSejarah, "Menu berisi Materi tentang Sejarah Futsal", R.mipmap.ic_info));
+        ruleModels.add(new RuleModel(R.string.FutsalLaw, "Menu kumpulan teknik - teknik dasar Futsal", R.mipmap.ic_info));
+        ruleModels.add(new RuleModel(R.string.TataCara, "Menu kumpulan teknik - teknik dasar Futsal", R.mipmap.ic_info));
+        ruleModels.add(new RuleModel(R.string.Video, "Menu berisi video yang terintegrasi dengan Youtube", R.mipmap.ic_info));
+        ruleModels.add(new RuleModel(R.string.Profil, "Menu profil pembuat aplikasi", R.mipmap.ic_info));
+        ruleModels.add(new RuleModel(R.string.Developer, "AlertDialog Developer Mobile Android", R.mipmap.ic_info));
+        ruleModels.add(new RuleModel(R.string.Analyst, "AlertDialog Analyst", R.mipmap.ic_info));
+        ruleModels.add(new RuleModel(R.string.About, "Menu berisi Tentang Aplikasi", R.mipmap.ic_info));
+        return ruleModels;
+
+    }
+
 }

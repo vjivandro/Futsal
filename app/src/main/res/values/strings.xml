@@ -14,4 +14,14 @@
     <string name="page_deskripsi">Deskripsi</string>
     <string name="page_tentang">Tentang</string>
     <string name="page_info">Info</string>
+
+    <!--Petunjuk-->
+    <string name="MenuSejarah">Menu Sejarah Futsal</string>
+    <string name="FutsalLaw">Menu Futsal Law of The Game</string>
+    <string name="TataCara">Menu Tata Cara Pelaksanaan</string>
+    <string name="Video">Menu Video Cara Pelaksanaan</string>
+    <string name="Profil">Menu Profil</string>
+    <string name="Developer">Menu Developer</string>
+    <string name="Analyst">Menu Analyst</string>
+    <string name="About">Menu About</string>
 </resources>
