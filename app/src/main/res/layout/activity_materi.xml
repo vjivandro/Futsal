@@ -28,4 +28,5 @@
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:text="Futsal Laws of The Game" />
+
 </LinearLayout>

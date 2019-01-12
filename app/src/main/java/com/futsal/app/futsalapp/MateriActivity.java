@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import com.futsal.app.futsalapp.Materi.FutsalLawsGameActivity;
 import com.futsal.app.futsalapp.Materi.SejarahFutsalActivity;
+import com.futsal.app.futsalapp.Materi.StoryBoardAplikasi;
+import com.futsal.app.futsalapp.Materi.StoryBoardVideo;
 
 public class MateriActivity extends AppCompatActivity {
 

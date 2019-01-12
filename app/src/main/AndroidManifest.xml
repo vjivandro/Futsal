@@ -63,10 +63,21 @@
             android:name=".MetodeLatihan.VideoCaraPelaksanaanActivity"
             android:label="@string/page_video"
             android:parentActivityName=".MetodeLatihanActivity" />
-        <activity android:name=".Tentang.WebViewActivity" />
-        <activity android:name=".PetunjukActivity"
+        <activity
+            android:name=".Tentang.WebViewActivity"
+            android:parentActivityName=".TentangActivity"/>
+        <activity
+            android:name=".PetunjukActivity"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity
+            android:name=".Materi.StoryBoardVideo"
+            android:label="Storyboard Video"
+            android:parentActivityName=".PetunjukActivity" />
+        <activity
+            android:name=".Materi.StoryBoardAplikasi"
+            android:label="Storyboard Aplikasi"
+            android:parentActivityName=".PetunjukActivity" />
     </application>
 
 </manifest>

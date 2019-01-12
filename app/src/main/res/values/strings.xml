@@ -16,6 +16,8 @@
     <string name="page_info">Info</string>
 
     <!--Petunjuk-->
+    <string name="story_video">Storyboard Pembuatan Video</string>
+    <string name="story_aplikasi">Storyboard Aplikasi</string>
     <string name="MenuSejarah">Menu Sejarah Futsal</string>
     <string name="FutsalLaw">Menu Futsal Law of The Game</string>
     <string name="TataCara">Menu Tata Cara Pelaksanaan</string>
@@ -24,4 +26,9 @@
     <string name="Developer">Menu Developer</string>
     <string name="Analyst">Menu Analyst</string>
     <string name="About">Menu About</string>
+
+    <!--Profil-->
+    <string name="paraf_pertama">Nama lengkap Mohamad Bagus Syarifudin, dipanggil Bagus. Kelahiran Surabaya dan bertempat tinggal di Kabupaten Lamongan tepatnya di Dusun Wates, Desa Kaliwates, Kecamatan Kembangbahu, Kabupaten Lamongan, tanggal 26 April 1996, putra ketiga diantara tiga bersaudara dari pasangan Bapak Ma’ruf dan Ibu Mafrucha. Putra pertama bernama Ahmad Hafidz Fahrudin, Putra Kedua Bahrul Ulum Saputra. Pendidikan dasar ditempuh di SD Negeri Widya Adhi Putera Surabaya tahun 2004 dan pindah dari SD Widya Adhi Putera Surabaya pada kelas satu semester dua ke SD Negeri 1 Kaliwates Kembangbahu Lamongan dan tamat pada tahun 2009. Penulis kemudian melanjutkan kejenjang pendidikan menengah pertama di MTs. Islamiyah Kembangbahu Lamongan, tamat pada tahun 2012. Penulis melanjutkan sekolah menengah atas di MA Al-Munawwaroh Kembangbahu Lamongan, tamat pada tahun 2015.</string>
+    <string name="paraf_kedua">Melalui jalur Bidik Misi (SNMPTN), penulis kemudian melanjutkan pendidikan di Universitas Negeri Malang mengambil Program Strata 1 (S-1) dan diterima di Fakultas Ilmu Keolahragaan tepatnya Jurusan Pendidikan Kepelatihan Olahraga (PKO). Saat kuliah penulis aktif dalam kegiatan organisasi intra kampus maupun ekstra kampus. Penulis aktif di organisasi Asrama Mahasiswa Universitas Negeri Malang pada tahun 2015-2016, HMJ PKO sebagai Koordinator Seksi Pengabdian Masyarakat periode 2016-2017, Dewan Perwakilan Mahasiswa (DPM) FIK  sebagai Ketua Komisi II Konstitusi periode 2017-2018. Selain aktif dalam organisasi intra dan ekstra kampus penulis juga ikut berpartisipasi sebagai panitia Komisi Pemilihan Umum (KPU) dalam Pemilihan Umum Raya (PEMIRA) di Fakultas Ilmu Keolahragaan tahun 2016 sebagai Bendahara Umum sekaligus di tahun 2017 sebagai Koordinator Komisi Sosialisasi dan Kampanye. Selain itu penulis juga mengikuti Latihan Keterampilan dan Manajemen Mahasiswa Tingkat Dasar (TD), Tingkat Menengah (TM) dan Tingkat Lanjut (TL) yang diadakan oleh Universitas Negeri Malang pada tahun 2017.</string>
+    <string name="paraf_ketiga">Ucapan terakhir penulis bersyukur kepada Allah SWT dengan adanya orang tua, keluarga, teman dekat, guru, serta dosen yang luar biasa penulis bisa menyelesaikan semua ini, mereka semua adalah motivator dan inspirasi bagi penulis. Semoga Allah SWT selalu melindungi mereka dimanapun berada. Amin ya robbal alamin.</string>
 </resources>

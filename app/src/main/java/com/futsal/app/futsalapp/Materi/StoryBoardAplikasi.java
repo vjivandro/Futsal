@@ -1,9 +1,10 @@
-package com.futsal.app.futsalapp.MetodeLatihan;
+package com.futsal.app.futsalapp.Materi;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.futsal.app.futsalapp.R;
+
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
 import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;
@@ -12,10 +13,10 @@ import com.shockwave.pdfium.PdfDocument;
 
 import java.util.List;
 
-public class TataCaraPelaksanaanActivity extends AppCompatActivity implements OnPageChangeListener,OnLoadCompleteListener {
+public class StoryBoardAplikasi extends AppCompatActivity implements OnPageChangeListener,OnLoadCompleteListener {
 
 
-    public static final String SAMPLE_FILE = "Lampiran Model Latihan.pdf";
+    public static final String SAMPLE_FILE = "Storyboard Aplikasi.pdf";
     PDFView pdfView;
     Integer pageNumber = 0;
     String pdfFileName;
@@ -23,7 +24,7 @@ public class TataCaraPelaksanaanActivity extends AppCompatActivity implements On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_metode);
+        setContentView(R.layout.activity_futsal_laws_game);
 
         pdfView = (PDFView) findViewById(R.id.pdfView);
         displayFromAsset(SAMPLE_FILE);
@@ -71,3 +72,4 @@ public class TataCaraPelaksanaanActivity extends AppCompatActivity implements On
         }
     }
 }
+
